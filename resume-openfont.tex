@@ -1,0 +1,139 @@
+\documentclass[]{resume-openfont}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{hyperref}
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\def\ci#1{\textcircled{\resizebox{.5em}{!}{#1}}}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection
+{Emanuel}
+{Muñoz}
+{\href{mailto:emanuel.munoz@utec.edu.pe}{\textit{emanuel.munoz@utec.edu.pe}}} %3
+{\href{https://github.com/EmanuelSamir}{\ci{\faGithub}}} %4
+{\href{https://www.linkedin.com/in/EmanuelSamirMP/en}{\ci{\faLinkedin}}} % 5
+{\href{https://scholar.google.com/citations?user=KjixlLsAAAAJ&hl=es&oi=ao}{\ci{\faGraduationCap}}} %6
+{\href{https://api.whatsapp.com/send/?phone=51947263845}{\ci{\faWhatsapp}}} % 7
+{Python, Matlab, C++} %8
+{Torch, Scikit, TF, OpenCV} %9
+%10
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\begin{minipage}[t]{0.95\linewidth} 
+\textbf{Senior Peruvian student} of Electrical Engineering at UTEC. Interested in \textbf{AI,  Computer Vision}, and Robotics for global or social issues. Worked on projects related to surgical robotics, autonomous vehicles, machine learning, and control with \href{https://scholar.google.com/citations?user=KjixlLsAAAAJ&hl=es&oi=ao}{\textbf{six indexed publications}}. Collaborated with material science project at \textbf{Yale University}. Accepted into selective AI and Robotics  
+\href{https://riss.ri.cmu.edu/}{\textbf{RISS program}} at \textbf{Carnegie Mellon University}. Currently, I am working on my thesis project based on \textbf{Deep Reinforcement Learning} applied on mobile robots.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education} 
+\runsubsection{\href{https://www.utec.edu.pe/en/}{Universidad de Ingeniería y Tecnología - UTEC}}
+\descript{| Electrical Engineering}
+\location{March 2016 - Expected December 2021 | Lima, Perú}
+\textbf{Upper Top-Fifth} | Senior Undergraduate Student |
+\textbf{Awarded with Full Academic Scholarship} \\
+\textbf{Cum. GPA: 4.00} | GPA in Peruvian scale: 15.86/20.00 | \textbf{Thesis project:} AI-curiosity-driven exploration in mobile robots.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+%\runsubsection{\href{https://riss.ri.cmu.edu/}{Carnegie Mellon University - Robotics Institute}}
+%\descript{| Incoming internship }
+%\location{June 2021 - August 2021| Remote}
+%\begin{tightemize}
+%\item  %\end{tightemize}
+
+\runsubsection{\href{http://www.utecgo.edu.pe/sites/default/files/field/PPT Research v.8.pdf\#page=127}{UTEC - CONCYTEC}}
+\descript{| Robotics Research Assistant }
+\location{ March 2020 – Currently | Lima, Perú}
+\begin{tightemize}
+    \item Collaborated in a \textbf{two-year government-funded project} to implement a nonlinear controller in a surgical robot platform based on haptic control. | Published \href{https://scholar.google.com/citations?user=KjixlLsAAAAJ&hl=es&oi=ao}{\textbf{two indexed  papers}}, one pending. | \textbf{Tech:}\tech{ROS, Python, Gazebo.}
+    \item Implemented a \textbf{hybrid learning controller} for torque-position transformation in manipulator robots
+    \item Designed and implemented a camera framework for feedback sensing using \textbf{computer vision} and filtering techniques.
+\end{tightemize}
+
+\sectionsep
+\runsubsection{Yale University - \href{https://seas.yale.edu/faculty-research/faculty-directory/jan-schroers}{Schroers Lab} }
+\descript{| Research Assistant}
+\location{Jan - March 2020 | New Haven, CT, US}
+\begin{tightemize}
+    \item Sponsored by \href{https://www.repuprogram.org/nanorepu}{Research Experience for Peruvian Undergraduates} | Supervised by \href{https://seas.yale.edu/faculty-research/faculty-directory/jan-schroers}{Jan Schroers} and Sungwoo Sohn.
+    \item Designed and developed two new alloys with potential mechanical properties for industrial applications.
+\end{tightemize}
+
+\sectionsep
+\runsubsection{\lowercase{\href{https://www.isarep.com.pe/SitePages/Home.aspx?lang=en}}{ISA REP}}
+\descript{| Digital Image Processing Intern}
+\location{Jun – Dec 2019 | Lima, Perú}
+\begin{tightemize}
+    \item Designed and developed two methods for corrosion detection based on \textbf{computer vision and AI} for decision making.
+    \item Launched the first phase of automatic supervision of +1000 km powerlines using drones and machine learning.
+    \item Developed framework for semantic labeling, classifier training, and GUI prototype. | \textbf{Tech:}\tech{scikit, Keras, OpenCV, PyQT}  
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\section{Projects}
+\project{Minsky | \href{https://github.com/minskylab}{\faGithub} \href{https://minsky.cc/https://minsky.cc/}{\faLink}}
+\begin{tightemize}
+    \item Collaborated in open source web-based projects for Minsky company.
+    \item Participated in COVID-19 oriented hackathons proposing web-based solutions.
+\end{tightemize}
+
+\project{Navigation robotics with AI | \href{https://github.com/EmanuelSamir/2d-navigation-drl}{\faGithub}
+\href{https://github.com/EmanuelSamir/2d-navigation-drl/blob/main/_EEML__Extended_Abstract.pdf}{\faPaperclip}}
+\begin{tightemize}
+    \item Developed actor-critic agent applied on a mobile robot for exploration and navigation tasks. \textbf{Tech:}\tech{Gym, Torch}   
+\end{tightemize}
+
+\project{Image Enhancer | \href{https://github.com/EmanuelSamir/DIP_project_Testing}{\faGithub}}
+\begin{tightemize}
+    \item Built a model architecture to automate beauty-enhancing of photos using image manipulation. \textbf{Tech:}\tech{TF, scikit}.
+\end{tightemize}
+\project{Autonomous Mobile Robotics | \href{https://github.com/EmanuelSamir/201_dev_rndlocalizer}{\faGithub}} 
+\begin{tightemize}
+    \item Designed and implemented algorithms for \textbf{autonomous} motion planning and exploration on mobile robots in real and simulated environments. | \textbf{Tech:}\tech{ROS, Gazebo} 
+    \item Built complete frameworks for mobile robotic applications and \href{https://scholar.google.com/citations?user=KjixlLsAAAAJ&hl=es&oi=ao}{\textbf{published four papers}} showing results. 
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Additional Information} 
+\begin{tabular}{rll}
+2021	     & Selected for research internship at \href{https://riss.ri.cmu.edu/}{ \textbf{Carnegie Mellon’s Robotics Institute Summer Scholars (RISS) program}}  \\
+2021	     & Accepted to participate on \href{https://www.yorku.ca/cvr/summer-school/}{\textbf{VISTA Vision Science and AI Summer School}} at \textbf{York University} \\
+2020	     & Selected out of 300+ students by \href{https://www.repuprogram.org/}{\textbf{REPU}} to work on nano science research internship at \textbf{Yale University}  \\
+2019	     & Accepted with financial support in the \href{http://robotvision2019.amtc.cl/}{\textbf{International Summer School on Deep Learning for Robot Vision}} at Chile \\
+\end{tabular}
+
+\section{Interests}
+\interest{Deep Learning, decentralized tech, science divulgation, start-up, table tennis, Sherlock Adventures, cooking}
+\end{minipage} 
+\end{document}  \documentclass[]{article}
